@@ -3,7 +3,7 @@ set -xe
 
 
 # Copy war file from S3 bucket to tomcat webapp folder
-aws s3 cp s3://codedeploystack-webappdeploymentbucket-1lst4vmvc4ywg ##s3-bucket##/SpringBootHelloWorldExampleApplication.war /usr/local/tomcat9/webapps/SpringBootHelloWorldExampleApplication.war
+aws s3 cp s3://codedeploystack-webappdeploymentbucket-69uanwt8hu0w/SpringBootHelloWorldExampleApplication.war /usr/local/tomcat9/webapps/SpringBootHelloWorldExampleApplication.war
 
 
 # Ensure the ownership permissions are correct.
